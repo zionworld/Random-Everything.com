@@ -1,28 +1,16 @@
-img{
-    height: 200px;
-    width: 200px;
+*{
+    background-color: antiquewhite;
 }
 
-.color-title{
-    font-weight: normal;
+p{
+    color: coral;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
-#red{
-    color: red;
-}
-
-#blue{
-    color: blue;
-}
-
-#green{
-    color: green;
-}
-
-#yellow{
-    color: yellow;
-}
-
-#orange{
-    color: orange;
+.caveat-font-config {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
