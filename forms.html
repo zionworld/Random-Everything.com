@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My forms</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <header>
-            <h1 id="registration_heading">User Registration</h1>
-        </header>
-        <div class="registration_page_linebreak"><hr />
-        </div>
-        <p class="content_heading">Enter details for user registration</p>
-        <div class="form_fonts">
-            <label>User Name</label>&nbsp;&nbsp;&nbsp;<input type="text"/><br>
-            <label>Email</label>&nbsp;&nbsp;&nbsp;<input type="email"/><br>
-            <
-        </div>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .redImage {
+            display: block;
+            width: 400px;
+            height: 400px;
+            padding: 5px;
+            border: 10px solid red;
+            margin-bottom: -20px;
+        }
+
+        .yellowImage {
+            display: inline;
+            padding: 5px;
+            border: 10px solid red;
+        }
+
+        .greenImage {
+            display: inline;
+            padding: 5px;
+            border: 10px solid red;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        .container {
+            border: 5px solid blue;
+            margin: 40px;
+        }
+
+        .box {
+            border: 5px solid rebeccapurple;
+            background-color: lightgray;
+            padding: 10px;
+            height: 100px;
+            /* try changing the margin properties: */
+            margin-top: -40px;
+            margin-right: 30px;
+            margin-bottom: 40px;
+            margin-left: 4em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="redImage">
+        <img src="./assets/red.png" alt="red">
+    </div>
+    <div class="yellowImage">
+        <img src="./assets/yellow.png" alt="yellow">
+    </div>
+    <div class="greenImage">
+        <img src="./assets/green.png" alt="green">
+    </div>
+
+    <div class="container">
+        <div class="box">Change my margin</div>
+    </div>
+</body>
+
 </html>
