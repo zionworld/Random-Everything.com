@@ -1,10 +1,11 @@
 body{
-  background-color: rgb(138, 178, 95);
+  background-color: #FEF9E1;
 }
 
 .header-section{
   background-color: rgb(223, 223, 65);
   text-align: center;  
+  font-size: 30px;
 }
 
 .title{
@@ -20,6 +21,25 @@ body{
   background-color: rgb(202, 236, 81);
   border: solid rgb(57, 216, 57);
   border-width: 2px;
-  border-radius: 40%;
+  border-radius: 20px;
 
+}
+
+a:link, a:visited, a:active{
+  color: black;
+}
+
+a:hover{
+  background-color: ;
+}
+
+.main-frame{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+iframe{
+  width: 1000px; 
+  height: 750px;
 }
