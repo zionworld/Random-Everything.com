@@ -3,35 +3,26 @@ body{
 }
 
 .header-section{
-  background-color: rgb(223, 223, 65);
-  text-align: center;  
-  font-size: 30px;
+  text-align: left;  
+  font-size: 30px;  
+  font-family: "Workbench", serif;
+  display: flex;
 }
-
-.title{
-  font-size: 100%;
+h4{
+  padding-top: 30px;
 }
 
 .sub-menu{
   text-align: center;
 }
 
-.sub-menu-links{
-  margin: 2%;
-  background-color: rgb(202, 236, 81);
-  border: solid rgb(57, 216, 57);
-  border-width: 2px;
-  border-radius: 20px;
-
-}
 
 a:link, a:visited, a:active{
   color: black;
+  text-decoration: none;
 }
 
-a:hover{
-  background-color: ;
-}
+
 
 .main-frame{
   display: flex;
