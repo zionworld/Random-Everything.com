@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Paint App - Advanced Drawing Tool</title>
+    
+    <!-- SEO & Performance Enhancements -->
+    <meta name="description" content="Create amazing digital art with an online paint app. Features include an eraser, color picker, undo/redo, and download options.">
+    <meta name="keywords" content="paint app, drawing tool, sketch app, online painting">
+    <meta name="author" content="Your Name">
+
+    <!-- Open Graph (For Social Media Sharing) -->
+    <meta property="og:title" content="Online Paint App - Advanced Drawing Tool">
+    <meta property="og:description" content="Enjoy a free online paint tool with essential features like an eraser, undo/redo, and color picker.">
+    <meta property="og:image" content="preview.webp">
+    <meta property="og:url" content="https://yourwebsite.com/paint-app">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Online Paint App 🎨</h1>
+        <button id="toggleDarkMode">🌙 Dark Mode</button>
+        
+        <div class="tools">
+            <label for="colorPicker">Color:</label>
+            <input type="color" id="colorPicker">
+            
+            <input type="range" id="brushSize" min="1" max="20" value="5">
+            
+            <button id="undoBtn">Undo</button>
+            <button id="redoBtn">Redo</button>
+            <button id="eraserBtn">Eraser</button>
+            <button id="clearCanvas">Clear</button>
+            <button id="downloadBtn">Download PNG</button>
+        </div>
+    </header>
+
+    <main>
+        <canvas id="paintCanvas"></canvas>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Online Paint App | Designed for creativity!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

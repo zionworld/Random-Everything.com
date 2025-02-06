@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+.tools {
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    background: white;
+    border: 2px solid #000;
+}
+
+#toggleDarkMode {
+    background: #ffcc00;
+    color: black;
+}
+
+#eraserBtn {
+    background: #dc3545;
+}
